@@ -13,10 +13,10 @@ lul
 There is a demo program in the demo folder that can be used to parse xml files and print the AST to stdout.
 
 ```bash
-cd demo
+cd demos/PrintVisitorDemo
 make
 cd build
-./demo
+./PrintVisitorDemo
 ```
 
 ## Visitors
