@@ -1,12 +1,13 @@
+![SillyLogo](parsley.jpg)
+
 # ParsleyXML
-An xml parser library in C++ that uses a waaaay too complicated state machine for tokenizing and generates an AST for the parsed xml.
+A very basic xml parser library in C++ that uses a waaaay too complicated state machine for tokenizing and generates an AST for the parsed xml.
 
 ## Building
-
+Guess  what:
 ```bash
 make
 ```
-lul
 
 ## Demo
 
