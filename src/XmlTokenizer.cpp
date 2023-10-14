@@ -63,9 +63,9 @@ void XmlTokenizer::handleError(TokenizerError error, char input)
     break;
   }
   case XmlTokenizer::INVALID_CHAR: {
-    std::cout << "Invalid character"
-    << 
-    ", at position " << rawInputIndex - 1 << std::endl;
+    std::cout << "Invalid character \""
+    << input <<
+    "\", at position " << rawInputIndex - 1 << std::endl;
     break;
   }
   case XmlTokenizer::NO_INPUT_DATA: {
